@@ -1,0 +1,6 @@
+{
+  "TokensModule#MockERC20": "0x78E3299b89caa35F6C3e4986C219b6a241D520DC",
+  "TokensModule#NoToken": "0x518c3e4e5CEf69e5C51ABb5CB443E99C1579dF65",
+  "TokensModule#YesToken": "0x9F28d3b77dc58B20e54Df4ff0c45b139Fc65fBad",
+  "RadishCoreModule#RadishCore": "0x19007A71a4c073a73711Ed8EE19c163b777F3eCf"
+}
