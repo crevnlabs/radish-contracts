@@ -54,7 +54,7 @@ module.exports = {
       allowUnlimitedContractSize: true,
     },
     avax: {
-      url: "https://endpoints.omniatech.io/v1/avax/fuji/public",
+      url: "https://avalanche-fuji-c-chain-rpc.publicnode.com",
       chainId: 43113,
       accounts: process.env.PRIVATE_KEY ? [process.env.PRIVATE_KEY] : [],
     },
@@ -94,7 +94,7 @@ module.exports = {
         network: "avax",
         chainId: 43113,
         urls: {
-          apiURL: "https://api.avax.network/ext/bc/C/rpc",
+          apiURL: "https://avalanche-fuji.drpc.org",
           browserURL: "https://explorer.avax.network/",
         },
       },
