@@ -1,0 +1,25 @@
+{
+  "name": "my-contracts",
+  "version": "1.0.0",
+  "description": "My contracts",
+  "scripts": {
+    "test": "hardhat test",
+    "compile": "hardhat compile",
+    "deploy:sepolia": "hardhat ignition deploy ./ignition/modules/MyContract.js --network sepolia",
+    "deploy:market": "npx hardhat run scripts/deploy-final.js --network base_sepolia"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-ignition": "^0.15.9",
+    "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+    "@nomicfoundation/hardhat-verify": "^2.0.9",
+    "@nomiclabs/hardhat-etherscan": "^3.1.8",
+    "@openzeppelin/hardhat-upgrades": "^3.9.0",
+    "hardhat": "^2.22.9"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^5.1.0",
+    "@openzeppelin/contracts-upgradeable": "^5.2.0",
+    "@prb/math": "^4.1.0",
+    "dotenv": "^16.4.5"
+  }
+}
